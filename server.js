@@ -23,6 +23,7 @@ const PORT = 8000;
 //routes
 app.use("/api/v1", require("./routes/authRoutes.js"));
 app.use("/api/v1", require("./routes/sitterRoutes.js"));
+
 //Listening the PORT
 app.listen(PORT, () => {
   console.log(`Server is running ${PORT}`);
